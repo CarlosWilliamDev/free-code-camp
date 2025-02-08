@@ -18,6 +18,10 @@ body {
     text-align: center;
 }
 
+span {
+    font-size: 60px;
+}
+
 /* Estilização dos títulos */
 h1, h2, h3 {
     text-align: center;
@@ -81,7 +85,7 @@ main h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#fffbfb00;;
+    background-color:#bb292900;;
     width: 150px;
     min-height: 50px;
     font-size: 18px;
@@ -120,7 +124,7 @@ main h1 {
     margin: auto;
     padding: 20px;
     margin-top: 20px;
-    background: #f9f9f9;
+    background: #e68a0077;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
