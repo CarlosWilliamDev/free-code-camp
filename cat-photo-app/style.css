@@ -75,13 +75,39 @@ main h1 {
     padding-top: 30px;
 }
 
+.list-ul {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#fffbfb00;;
+    width: 150px;
+    min-height: 50px;
+    font-size: 18px;
+}
+
 /* Estilização das listas */
-ul li {
+.list-ul ul li {
+    text-align: left;
     list-style-type: '\2714\00A0\00A0'; /* Adiciona um ✔ antes dos itens */
     list-style-position: inside;
 }
 
-ol li {
+.list-ol {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#fffbfb00;;
+    width: 150px;
+    min-height: 50px;
+    font-size: 18px;
+}
+
+.list-ol ol li {
+    text-align: left;
     list-style-position: inside;
 }
 
