@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+/* Importação da fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&display=swap');
+
+/* Resetando as margens e paddings padrão */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilização geral do corpo da página */
+body {
+    background-image: url(img/—Pngtree—simple\ cute\ pink\ cat\ paw_1282900.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+/* Estilização dos títulos */
+h1, h2, h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #525050;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/* Linha separadora */
+hr {
+    height: 2px;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+/* Estilização das imagens */
+img {
+    margin-top: 20px;
+    border-radius: 20px 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Estilização dos links */
+a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(177, 81, 46);
+}
+
+/* Estilização do conteúdo principal */
+main {
+    background-color: #fffbfbdc;
+    max-width: 90%; /* Reduz o tamanho em telas menores */
+    width: 600px; /* Mantém um limite para telas maiores */
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Ajuste do título principal dentro do main */
+main h1 {
+    padding-top: 30px;
+}
+
+/* Estilização das listas */
+ul li {
+    list-style-type: '\2714\00A0\00A0'; /* Adiciona um ✔ antes dos itens */
+    list-style-position: inside;
+}
+
+ol li {
+    list-style-position: inside;
+}
+
+/* ---------------------- */
+/* Estilização do Formulário */
+/* ---------------------- */
+
+.form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Títulos do formulário */
+.form h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Estilização dos fieldsets */
+fieldset {
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilização das legendas dentro do fieldset */
+legend {
+    font-weight: bold;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Campo de entrada de texto */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #cccccc56;
+    border-radius: 5px;
+    font-style: italic;
+    color: #cccccccb;
+}
+
+/* Estilização dos rótulos */
+label {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* Estilização do botão de envio */
+button {
+    background: #ff9800;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* ---------------------- */
+/* Estilização do Rodapé */
+/* ---------------------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#fffbfbdc;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 620px;
+    min-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Estilização dos links no rodapé */
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------- */
+/* Estilização dos Ícones de Redes Sociais */
+/* ---------------------- */
+
+#social {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+#social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+@media (max-width: 480px) {
+    main {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .grande{
+        width: 300px;
+    }
+
+    h1, h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    footer {
+        max-width: 90%;
+    }
+}

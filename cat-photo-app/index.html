@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CatPhotoApp</title>
 <body>
+  <div class="container">
       <main>
           <h1>CatPhotoApp</h1>
-          <section>
-            <h2>Cat Photos</h2>
-            <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+          <hr>
+          <section class="cat-photos">
+            <h2>Cat Photos 🐾</h2>
+            <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg" target="_blank">cute cats</a> online!</p>
             <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-            <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+            <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back." width="200" height="200"></a>
           </section>
           <section>
-            <h2>Cat Lists</h2>
+            <h2>Cat Lists 🐾</h2>
             <h3>Things cats love:</h3>
             <ul>
               <li>cat nip</li>
@@ -22,7 +25,7 @@
               <li>lasagna</li>
             </ul>
             <figure>
-              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" width="200" height="200" alt="A slice of lasagna on a plate.">
               <figcaption>Cats <em>love</em> lasagna.</figcaption>  
             </figure>
             <h3>Top 3 things cats hate:</h3>
@@ -32,12 +35,12 @@
               <li>other cats</li>
             </ol>
             <figure>
-              <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+              <img class="grande"src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"  alt="Five cats looking around a field.">
               <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
             </figure>
           </section>
-          <section>
-            <h2>Cat Form</h2>
+          <section class="form">
+            <h2>Cat Form 🐾</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
               <fieldset>
                 <legend>Is your cat an indoor or outdoor cat?</legend>
@@ -55,10 +58,34 @@
             </form>
           </section>
         </main>
-        <footer>
+        <footer class="caixa">
           <p>
-            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org 
         </p>
+        <p></a> Desenvolvido por <a href="">Carlos William </a></p>
+        <div id="social">
+            
+            
+          <a href="#"><ion-icon name="rocket-outline" target="_blank"></ion-icon>
+          </a>
+  
+          <a href="https://linkedin.com/in/carlos-william-alves-815a53340"><ion-icon name="logo-linkedin" target="_blank"></ion-icon>
+          </a>
+  
+          <a href="https://github.com/CarlosWilliamDev"><ion-icon name="logo-github" target="_blank"></ion-icon>
+          </a>
+  
+          <a href="https://discord.gg/gczquTGZ">
+          <ion-icon name="logo-Discord" target="_blank"></ion-icon>
+          </a>
+        </div>
       </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
   </body>
 </html>
