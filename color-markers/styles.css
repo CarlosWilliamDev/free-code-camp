@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 95vh;
+    background-image: linear-gradient(rgb(247, 247, 247), rgb(45, 44, 44));
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Poppins";
+    font-size: 60px;
+    color: rgb(82, 82, 82);
+  }
+  
+  .container {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50% );
+  }
+  
+  .marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+  }
+  
+  .cap {
+    width: 60px;
+    height: 25px;
+  }
+  
+  .sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+  }
+  
+  .cap, .sleeve {
+    display: inline-block;
+  }
+  
+  .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+  }
+  
+  .green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+  }
+  
+  .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow:0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+  }
+
+  #social {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+#social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: black;
+    transition: 0.2s;
+}  
+
+#social a:hover{
+    color: white;
+    transform: scale(1.2);
+}
