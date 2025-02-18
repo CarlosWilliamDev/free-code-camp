@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--TITULO E PARAGRAFO-->
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <!--CAIXA DO PROPRIO FORMULARIO-->
+    <form id="survey-form">
+        <!--NAME-->
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <!--EMAIL-->
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your Email" required>
+
+        <!--NUMBER-->
+        <label id="number-label" for="number">Age (optional)</label>
+        <input id="number" type="number" min="1" max="10" placeholder="Age">
+
+        <!--OPTION-RADIO-->
+        <p class="choose-option">Choose an option:</p>
+        <div class="radio-group">
+            <label for="radio-group">
+                <input id="radio" type="radio" name="radio-group" value="option1"> Woman
+            </label>
+            <label for="radio-group">
+                <input id="radio" type="radio" name="radio-group" value="option2"> Man
+            </label>
+        </div>
+
+        <!--OPTION-OPTION-->
+            <p class="dropdown">Select current role:</p>
+            <select id="dropdown">
+                <option value="">Select current role</option>
+                <option value="role1">Role 1</option>
+                <option value="role2">Role 2</option>
+            </select>
+
+        <!--CHECKBOX-->
+        <p class="preferences">Select your preferences:</p>
+        <div class="checkbox">
+            <label for="checkbox">
+                <input type="checkbox" value="checkbox1">  Career transition
+            </label>
+            <label for="checkbox">
+                <input type="checkbox" value="checkbox1">  Continue Studies
+            </label>
+            <label for="checkbox">
+                <input type="checkbox" value="checkbox2">  Seek Internship
+            </label>
+            <label for="checkbox">
+                <input type="checkbox" value="checkbox2">  Participate in Exchange Programs
+            </label>
+        </div>
+
+        <!--TEXTAREA-->
+            <p class="additional">Additional comments:</p>
+            <textarea class="textarea" placeholder="Enter your comment here..."></textarea>
+
+        <input id="submit" type="submit">
+    </form>
+
+</body>
+</html>
