@@ -12,6 +12,7 @@
 /* Estilização geral do corpo da página */
 body {
     background-image: url(img/—Pngtree—simple\ cute\ pink\ cat\ paw_1282900.png);
+    background-attachment: fixed; /*para efeito paralax*/
     padding-top: 30px;
     padding-bottom: 30px;
     color: #333333;
