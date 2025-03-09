@@ -1,0 +1,160 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(169, 169, 169), rgb(211, 211, 211), rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding: 10px;
+    height: 95vh;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+
+  h1, h2 {
+    font-family: Impact, serif;
+    color: #000000b6;
+    letter-spacing: 2px; /* Ajuste o valor conforme necessário */
+  }
+  
+  h1, h2, p {
+    text-align: center;
+    
+  }
+
+  hr {
+    height: 2px;
+    background-color:lightgray;
+    border-color:lightgray;
+  }
+  
+  .container {
+    width: 80%;
+    min-width: 280px; 
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.404);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Organiza os itens da lista em coluna */
+}
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+    width: 100%; /* Garante que a lista ocupe toda a largura do container */
+    display: flex;
+    flex-direction: column; /* Organiza os itens da lista em coluna */
+    align-items: center; /* Centraliza a lista horizontalmente dentro do container */
+    gap: 2px; /* Espaçamento entre os itens */
+}
+
+li {
+    padding: 5px;
+    background-color: #007bff2f;
+    border-radius: 15px;
+    text-align: center;
+    transition: .2s;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.299);
+    font-family:"Kanit", serif;
+    font-weight: 150;
+    font-style: normal;
+    width: 55%; /* Faz com que os itens da lista ocupem 80% da largura do container */
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: rgba(169, 169, 169, 0.482);
+    box-shadow: 0px 0px 8px rgb(90, 90, 90);
+}
+
+a { 
+    text-decoration: none; 
+    color: rgb(109, 109, 109); 
+    font-weight: 800;
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+  
+  
+  
+  .bottom-line {
+    height: 2px;                /* Define a altura da linha */
+    background-color: lightgrey;  /* Define a cor da linha */
+    border-color:lightgray;  
+}
+
+  
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 12px;
+  }
+
+  footer p{
+    margin: 2px;
+  }
+  
+  .dev a{
+    text-decoration: none;
+    font-family: Impact, serif;
+    color: #000000b6;
+  }
+
+  .dev a:hover {
+    color: #007BFF;
+  }
+
+  #social {
+    display: flex;
+    justify-content: center;
+    padding: 1px 0;
+    font-size: 20px;
+    margin-bottom: 0px;
+    
+  }
+
+  #social a {
+    display: flex; /*Alinhamento e Distribuição: Facilita o alinhamento de itens no eixo principal (horizontal) e no eixo cruzado (vertical).
+
+    Controle sobre o Espaçamento: Permite espaçar itens uniformemente, com espaços iguais entre eles ou em torno deles.
+    
+    Flexibilidade e Responsividade: Adapta o layout aos diferentes tamanhos de tela e dispositivos de maneira fluida.*/
+    align-items: center; /*. Ela alinha os itens filhos de um contêiner flexível no eixo vertical (eixo cruzado), centralizando-os dentro do contêiner.*/
+    justify-content: center; /*é utilizada no CSS em conjunto com display: flex para centralizar os itens filhos horizontalmente dentro de um contêiner flexível.*/
+    color:  #000000b6;
+    padding: 8px;
+
+  }  
+
+  #social a:hover {
+    color: #007BFF;
+  }
+
+  /*Section Img*/
+
+  .icon {
+    font-size: 60px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(109, 109, 109); 
+}
+
+ .icon:hover {
+    color: rgb(2, 129, 2);
+}
